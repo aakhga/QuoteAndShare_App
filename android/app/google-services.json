@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "451476991780",
+    "firebase_url": "https://quotesapp-582ab.firebaseio.com",
+    "project_id": "quotesapp-582ab",
+    "storage_bucket": "quotesapp-582ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451476991780:android:3a2b538f2bc9d9e3b8cdb1",
+        "android_client_info": {
+          "package_name": "com.codestructor.quotenshare_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451476991780-jqojbdkeuno6c1oq367saktj3t6uhthq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-juRhVV6RYUVJ9oYlsSfbqU1nz1POMpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451476991780-jqojbdkeuno6c1oq367saktj3t6uhthq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
