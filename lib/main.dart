@@ -200,11 +200,11 @@ class _HomeState extends State<Home> {
 
 // gets data from firestore database
 class GetData {
-  var db = Firestore.instance.collection('EnglishQuotes');
+  var db = Firestore.instance.collection('COLLECTION NAME HERE'); // your firebase collection name here
   
   DocumentReference getRandomDocument() {
     Random random = new Random();
-    int randomNumber = random.nextInt(103) + 1;
+    int randomNumber = random.nextInt(NUMBER OF DOCUMENTS HERE) + 1; // number of documents in firebase collection
     return db.document(randomNumber.toString().padLeft(5, '0'));
   }
 }
@@ -213,19 +213,19 @@ class GetData {
   class Ads {
   static InterstitialAd _interstitialAd;
   static void initialize() {
-    FirebaseAdMob.instance.initialize(appId: 'ca-app-pub-2498057525372689~3521875981');
+    FirebaseAdMob.instance.initialize(appId: 'ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx'); // admob appid for ads here
   }
 
   static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-    keywords: <String>['events', 'games', 'jobs'],
-    contentUrl: 'https://www.eventbrite.com/d/united-states/events/',
+    keywords: <String>['KEYWORD1', 'KEYWORD2', 'KEYWORD3'], // keywords for ads
+    contentUrl: 'CONTENT URL HERE', // content url here
     childDirected: false,
     testDevices: <String>[],
   );
 
   static InterstitialAd _createInterstitialAd() {
     return InterstitialAd(
-      adUnitId: "ca-app-pub-2498057525372689/5249341881",
+      adUnitId: "ca-app-pub-xxxxxxxxxxxxxxxxx/xxxxxxxxxx", //adunit id
       //adUnitId: InterstitialAd.testAdUnitId,
        targetingInfo: targetingInfo,
   listener: (MobileAdEvent event) {
