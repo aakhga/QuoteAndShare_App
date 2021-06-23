@@ -12,3 +12,4 @@ An app to get random quotes/proverbs and share them with friends or family.
 
 - include firebase remote config to remotely set the collection length of database.
 - improve appsize and performance.
+- 01.03.2021 deprecated by now, updates needed.
